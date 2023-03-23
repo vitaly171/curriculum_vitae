@@ -1,7 +1,8 @@
 import "./App.css";
+import Container from "./components/Container";
 
 function App() {
-  return <div>Here will appear new CV</div>;
+  return <Container />;
 }
 
 export default App;
