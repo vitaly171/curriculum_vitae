@@ -5,7 +5,8 @@
   justify-content: center;
   width: 100%;
   margin: 0;
-  background-color: #e16c6c;
+  background-color: rgba(130, 134, 135, 0.956);
+  border-bottom: 0px 4px 27px 0px rgba(45, 45, 45, 0.15);
 }
 .header__nav {
   display: flex;
@@ -24,4 +25,26 @@
 .header__item {
   list-style: none;
   padding: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(5, 224, 52, 0);
+  border-radius: 50px;
+  box-shadow: 3px -0px 0px 0px rgba(0, 214, 70, 1);
+}
+.logo__link {
+  font-size: larger;
+  font-weight: bold;
+  color: rgba(0, 214, 70, 1);
+  margin-left: 3px;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+.header__item__link {
+  text-decoration: none;
 }

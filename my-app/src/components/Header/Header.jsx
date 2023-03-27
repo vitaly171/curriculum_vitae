@@ -4,26 +4,43 @@ import s from "./Header.module.css";
 export default function Header() {
   return (
     <div className={s.header__container}>
-      <a href="/">Logo</a>
+      <div className={s.logo}>
+        <a className={s.logo__link} href="/">
+          V
+        </a>
+      </div>
+
       <nav className={s.header__nav}>
         <ul className={s.header__list}>
           <li className={s.header__item}>
-            <a href="/">About Me</a>
+            <a className={s.header__item__link} href="/">
+              About Me
+            </a>
           </li>
           <li className={s.header__item}>
-            <a href="/">EDUCATION</a>
+            <a className={s.header__item__link} href="/">
+              EDUCATION
+            </a>
           </li>
           <li className={s.header__item}>
-            <a href="/">EXPERIENCE</a>
+            <a className={s.header__item__link} href="/">
+              EXPERIENCE
+            </a>
           </li>
           <li className={s.header__item}>
-            <a href="/">TECH SKILLS</a>
+            <a className={s.header__item__link} href="/">
+              TECH SKILLS
+            </a>
           </li>
           <li className={s.header__item}>
-            <a href="/">HOBBIES</a>
+            <a className={s.header__item__link} href="/">
+              HOBBIES
+            </a>
           </li>
           <li className={s.header__item}>
-            <a href="/">LANGUAGE SKILLS</a>
+            <a className={s.header__item__link} href="/">
+              LANGUAGE SKILLS
+            </a>
           </li>
         </ul>
       </nav>
