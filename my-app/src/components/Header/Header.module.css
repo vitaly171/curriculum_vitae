@@ -1,5 +1,5 @@
 a {
-  font-family: "Sofia", sans-serif;
+  font-family: DM Sans, sans-serif;
 }
 .header__container {
   padding-left: 40px;
@@ -26,8 +26,8 @@ a {
 }
 
 .header__item {
-  font-size: large;
-  font-weight: 700;
+  font-size: medium;
+  font-weight: 600;
   list-style: none;
   padding: 10px;
 }
@@ -47,9 +47,13 @@ a {
   font-weight: bold;
   color: rgba(0, 214, 70, 1);
   margin-left: 3px;
-  margin-bottom: 2px;
   text-decoration: none;
 }
 .header__item__link {
+  color: rgb(175, 180, 185);
   text-decoration: none;
+  cursor: pointer;
+}
+.header__item__link:hover {
+  color: rgba(0, 214, 70, 1);
 }
