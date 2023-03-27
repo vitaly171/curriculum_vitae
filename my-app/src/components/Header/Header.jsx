@@ -19,27 +19,27 @@ export default function Header() {
           </li>
           <li className={s.header__item}>
             <a className={s.header__item__link} href="/">
-              EDUCATION
+              Education
             </a>
           </li>
           <li className={s.header__item}>
             <a className={s.header__item__link} href="/">
-              EXPERIENCE
+              Experience
             </a>
           </li>
           <li className={s.header__item}>
             <a className={s.header__item__link} href="/">
-              TECH SKILLS
+              Tech Skills
             </a>
           </li>
           <li className={s.header__item}>
             <a className={s.header__item__link} href="/">
-              HOBBIES
+              Hobbies
             </a>
           </li>
           <li className={s.header__item}>
             <a className={s.header__item__link} href="/">
-              LANGUAGE SKILLS
+              Contacts
             </a>
           </li>
         </ul>

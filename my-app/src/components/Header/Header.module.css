@@ -1,3 +1,6 @@
+a {
+  font-family: "Sofia", sans-serif;
+}
 .header__container {
   padding-left: 40px;
   display: flex;
@@ -23,6 +26,8 @@
 }
 
 .header__item {
+  font-size: large;
+  font-weight: 700;
   list-style: none;
   padding: 10px;
 }
