@@ -1,8 +1,27 @@
 .header__container {
+  padding-left: 40px;
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   width: 100%;
   margin: 0;
-  padding: 0;
   background-color: #e16c6c;
+}
+.header__nav {
+  display: flex;
+  margin-left: 60px;
+
+  justify-content: center;
+  flex-direction: row;
+}
+.header__list {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.header__item {
+  list-style: none;
+  padding: 10px;
 }
