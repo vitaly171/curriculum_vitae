@@ -3,7 +3,7 @@ import s from "./About.module.css";
 
 export default function About() {
   return (
-    <section className={s.about__container} id="about">
+    <section className={s.about__container}>
       <h1>
         I'm <br></br>
         Vitaly <br></br>Ivlev<span className={s.dot}>.</span>
@@ -17,7 +17,7 @@ export default function About() {
             V
           </a>
         </div>
-        <p className={s.text}>
+        <p className={s.text} id="about">
           I am inspired by IT innovations. I am skilled in Node.js, HTML/CSS,
           JavaScript, and React. I don't stop there; I constantly work to
           improve my abilities and keep up with emerging technologies. I am keen
