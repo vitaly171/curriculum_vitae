@@ -13,7 +13,7 @@ export default function Header() {
       <nav className={s.header__nav}>
         <ul className={s.header__list}>
           <li className={s.header__item}>
-            <a className={s.header__item__link} href="/">
+            <a className={s.header__item__link} href="#about">
               About Me
             </a>
           </li>
