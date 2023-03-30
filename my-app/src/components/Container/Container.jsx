@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About";
 import Education from "../Education";
 import Header from "../Header";
+import Experience from "../Experience";
 import s from "./Container.module.css";
 
 export default function Container() {
@@ -10,6 +11,7 @@ export default function Container() {
       <Header />
       <About />
       <Education />
+      <Experience />
     </div>
   );
 }
